@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Django is Awesome</title>
+  <link rel="stylesheet" href="{% static "styles/style.css" %}">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>The Benefits of Handmade Goat Milk Soap</h1>
+      <p>Handmade goat milk soap is a natural and nourishing option for skincare enthusiasts. Rich in vitamins and minerals, goat milk is known for its moisturizing properties, making it ideal for all skin types, especially dry or sensitive skin.</p>
+      <script src={% static "js/script.js" %}></script>
+      <img src="{% static "images/soap.png" %}" alt="Django Logo">
+    </div>
+  </div>    
+</body>
+</html>
+
+
